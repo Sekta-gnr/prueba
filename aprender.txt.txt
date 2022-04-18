@@ -1,6 +1,4 @@
-
-git Aprender --- eliminar esto porfavor
-
+git Aprender ---
 
 
 Git configuracion de entorno
