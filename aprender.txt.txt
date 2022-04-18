@@ -1,0 +1,82 @@
+git Aprender
+
+Git configuracion de entorno
+git config --global user.name <<userName>>
+git config --global user.email <<userEmail>>
+git configuracion --global -l (List de los valores de configuracion seteados)
+
+git pasos iniciales 
+
+git init
+crea la carpeta .git y esta lista para empezar a usar git en nuestro repositorio
+
+git status
+nos muestra el estado de los fichero a los cuales se les estan haciendo cambios
+
+git add (<<fileName>> O <<.>>)
+agregar al controlador de respositorios uno o mas archivos (para agregar todos los archivos con .)
+
+git reset <<fileNameToRemove>>
+elimina del stage los archivos que no vamos a hacer el control de versiones
+
+git commit -m <<commentCommit>>
+confirma la adicion de los ficheros agregados
+
+git checkout <<.>>
+eliminar los cambios realizados en archivos que no se ha hecho el commit
+
+git log
+lista todos los commit reliazados   
+
+git config --global alias.<<nameOfAlias>> <<comandWish>>
+se coloca un alias a un comando de git especifico para simplificar el llamado en el bash
+
+git commit --amend -m <<NewComment>>
+modifica el comentario del ultimo commit realizado
+
+git mv <<oldName>><<NewName>>
+modifica el nombre de un archivo 
+
+git rm <<nameFile>>
+elimina un archivo
+
+git reset --soft <<idCommit>>
+regresa el stage actual al stage de idcommit (no regresa archivos)
+
+git reset --hard <<idCommit>>
+regresa el stage y archivos actual al stage y archivos de idcommit 
+
+git reflog
+lista todos los commit que se hicieron sin importar los reset realizados
+
+git branch <<NewBranch>>
+crea una nueva rama de nuestro proyecto
+
+git checkout <<branch>>
+permite el cambio entre ramas
+
+git diff
+ver los cambios que se han relizado con respecto a la ultima version de nuestro archivo(head)
+**diff (para archivo que no estan en el stage)
+**dif --staged (para ver los cambios con respecto a los archivos que se encuentran el stage)
+
+
+
+github
+
+git remote add <<NameRepository>> <<urlRepository>>
+conecta con un repositorio remoto
+
+git push <<NameRepository>><<nameBranch>>
+sube la rama selecionada a el repositorio remoto   
+
+
+test cambio github
+
+git clone <<NameRepository>>
+clona todos los archivos de un repositorio remoto a nuestra maquina
+
+git pull <<NameRepository>><<nameBranch>>
+evalua y descarga los commit que se han realizado sobre el repositorio por parte de otros usuarios
+
+y una segunda rama?
