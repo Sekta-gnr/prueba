@@ -1,4 +1,4 @@
-git Aprender --- hola
+git Aprender --- hola -
 
 
 Git configuracion de entorno
