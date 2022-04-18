@@ -1,4 +1,6 @@
-git Aprender --- hola -
+
+git Aprender --- eliminar esto porfavor
+
 
 
 Git configuracion de entorno
